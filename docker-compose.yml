@@ -6,7 +6,6 @@ services:
     hostname: docker-spring-boot
     container_name: docker-spring-boot
     image: docker-spring-boot
-    working_dir: /app
     # 不对外开放端口，只能通过容器访问
     # ports:
     # - 8080:8080
